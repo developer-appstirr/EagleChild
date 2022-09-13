@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x80"
+    android:gravity="center_vertical"
+    android:id="@+id/headerLayout"
+    android:background="@color/primaryBlue"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/flBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/x8"
+        android:paddingBottom="@dimen/x8">
+
+        <LinearLayout
+            android:id="@+id/llBackLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/x16"
+            android:visibility="visible">
+
+            <ImageView
+
+                android:id="@+id/ivLeftBackIcon"
+                android:layout_width="@dimen/x30"
+                android:layout_height="@dimen/x30"
+                android:src="@drawable/ic_back"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/x5"
+                android:padding="@dimen/x5"
+                android:layout_marginBottom="@dimen/x5"/>
+
+
+            <TextView
+                android:id="@+id/tvLeftText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/redhatdisplay_regular"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="@dimen/s14"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/llAppLogoSection"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/x60"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="visible">
+
+
+
+            <TextView
+                android:layout_marginLeft="@dimen/x10"
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s22"
+                android:textColor="@color/white"
+                android:fontFamily="@font/redhatdisplay_bold"
+                android:text="Eagle"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSettingIcon"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+            android:src="@drawable/ic_setting"
+            android:layout_gravity="end|center"
+            android:layout_marginEnd="@dimen/x16" />
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

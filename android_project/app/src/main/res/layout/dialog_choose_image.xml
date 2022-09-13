@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_round_bg"
+    android:layout_margin="@dimen/x15"
+    android:id="@+id/llMainView">
+
+    <ImageView
+        android:id="@+id/btnCross"
+        android:layout_width="@dimen/x38"
+        android:layout_height="@dimen/x38"
+        android:src="@drawable/ic_close"
+        android:padding="@dimen/x10"
+        android:layout_marginEnd="@dimen/x8"
+        android:gravity="center"
+        android:layout_gravity="end"
+        app:tint="@color/black" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:textColor="@color/primaryBlue"
+        android:textSize="@dimen/s20"
+        android:layout_marginTop="@dimen/x10"
+        android:fontFamily="@font/redhatdisplay_bold"
+        android:layout_marginBottom="@dimen/x20"
+        android:layout_gravity="center"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/x40"
+        android:layout_marginTop="@dimen/x20"
+
+
+        >
+
+
+
+        <TextView
+            android:id="@+id/btnGallery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:text="@string/from_gallery"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/x8"
+            android:background="@drawable/rounded_button_corner"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/golden"
+            app:strokeColor="?attr/colorPrimary"
+            app:strokeWidth="@dimen/x1" />
+
+        <TextView
+            android:layout_marginTop="@dimen/x16"
+            android:id="@+id/btnCamera"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x50"
+            android:text="@string/from_camera"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="15sp"
+            android:background="@drawable/rounded_button_corner"
+            android:layout_marginHorizontal="@dimen/x8"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/golden"
+            app:strokeColor="?attr/colorPrimary"
+            app:strokeWidth="@dimen/x1" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

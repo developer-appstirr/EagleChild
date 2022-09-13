@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryBlue"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_marginHorizontal="@dimen/x16"
+            android:layout_marginTop="@dimen/x32"
+            android:layout_marginBottom="@dimen/x32"
+            android:textColor="@color/black"
+            android:text="Add Social App to Monitor"
+            android:textSize="@dimen/s22"
+            android:fontFamily="@font/redhatdisplay_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:overScrollMode="never"
+            android:id="@+id/rvAddApp"
+            android:layout_marginBottom="@dimen/x100"
+            tools:listitem="@layout/item_add_social_app"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="@dimen/x20"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/x16"
+        android:fontFamily="@font/redhatdisplay_bold"
+        android:layout_marginHorizontal="@dimen/x16"
+        android:id="@+id/btnSave"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="@dimen/x60"
+        android:text="Save"
+        android:backgroundTint="#ffcc2b"
+        android:background="@drawable/ic_bg_button"
+        android:textSize="@dimen/s16"
+        />
+
+
+</FrameLayout>
+
+
+

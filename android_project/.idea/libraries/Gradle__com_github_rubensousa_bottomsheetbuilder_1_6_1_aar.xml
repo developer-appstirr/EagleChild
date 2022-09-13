@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rubensousa:bottomsheetbuilder:1.6.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3023f285d81fca61d786fb34dd0f8e7/jetified-bottomsheetbuilder-1.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3023f285d81fca61d786fb34dd0f8e7/jetified-bottomsheetbuilder-1.6.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3023f285d81fca61d786fb34dd0f8e7/jetified-bottomsheetbuilder-1.6.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e1c16a79faecd4bb8ad2c1f8ecb54/jetified-bottomsheetbuilder-1.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e1c16a79faecd4bb8ad2c1f8ecb54/jetified-bottomsheetbuilder-1.6.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf2e1c16a79faecd4bb8ad2c1f8ecb54/jetified-bottomsheetbuilder-1.6.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rubensousa/bottomsheetbuilder/1.6.1/f9d42bfcb4520e946d2363883de1a6058a614d60/bottomsheetbuilder-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rubensousa/bottomsheetbuilder/1.6.1/65f6fe48986259ce1e19a6f5b48f98a5a31d78c1/bottomsheetbuilder-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

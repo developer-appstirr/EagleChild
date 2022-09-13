@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:notificationTimeout="100"
+    android:accessibilityFlags="flagDefault"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:canRetrieveWindowContent="true"
+    android:settingsActivity="com.example.android.accessibility.ServiceSettingsActivity"
+    />
+
+    <!--    android:accessibilityFeedbackType="feedbackAllMask"-->
+<!--for another app launce or uses  -->
+    <!--  android:accessibilityEventTypes="typeWindowStateChanged"-->
+<!--    android:accessibilityEventTypes="typeAllMask"-->
